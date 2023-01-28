@@ -1,0 +1,18 @@
+{
+  "name": "my-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jabro86/my-react.git",
+  "author": "Jan Brockmeyer <jabro@outlook.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  }
+}
