@@ -1,4 +1,4 @@
-export function render(element, container) {
+export function render(element: JSX.Element, container: HTMLElement) {
   const dom =
     element.type === "TEXT_ELEMENT"
       ? document.createTextNode("")

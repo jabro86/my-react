@@ -1,6 +1,7 @@
 // --- jsxFactory.d.ts ---
 declare namespace JSX {
-    interface IntrinsicElements {
-      [eleName: string]: any;
-    }
+  type Element = any;
+  interface IntrinsicElements {
+    [eleName: string]: any;
   }
+}
